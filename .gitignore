@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment variables
+.env
+frontend/.env
+frontend/.env.local
+
+# Hardhat artifacts & cache
+artifacts/
+cache/
+typechain-types/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# Logs & OS files
+*.log
+.DS_Store
+

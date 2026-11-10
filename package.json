@@ -1,0 +1,23 @@
+{
+  "name": "bot-digital-cemetery",
+  "version": "1.0.0",
+  "description": "BOT Digital Cemetery — On-chain graveyard for abandoned projects on BOT Chain Testnet",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network botTestnet",
+    "deploy:local": "hardhat run scripts/deploy.ts --network hardhat",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/node": "^20.17.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.18",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
+

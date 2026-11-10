@@ -5,7 +5,7 @@ async function main() {
 
   if (!deployer) {
     throw new Error(
-      "No deployer account configured. Set DEPLOYER_PRIVATE_KEY in your .env file before deploying."
+      "No deployer account configured. Set DEPLOYER_PRIVATE_KEY or PRIVATE_KEY in your .env file before deploying."
     );
   }
 
